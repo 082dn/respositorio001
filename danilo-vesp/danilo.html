@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="styles.css">
       <title>MEU EU MUSICAL</title>
    </head> 
    <body>
       <header>   
          <h1>MEU EU MUSICAL</h1>  
-         <a href=”dominio.tld/home” id="meulink1">Início</a>
-         <a href=”dominio.tld/blog” id="meulink1">Postagens</a>
-         <a href=”dominio.tld/sobre” id="meulink1">Sobre</a>
+         <nav>
+            <a href="dominio.tld/home" class="menu-link">Início</a>
+            <a href="dominio.tld/blog" class="menu-link">Postagens</a>
+            <a href="dominio.tld/sobre" class="menu-link">Sobre</a>
+         </nav>
       </header>
+
       <main>
-         <div class=”row">
+         <div class="row" id="danilo">
             <div class="post-text-box">
-               <h1>Postagem mais recente</h1>
+               <h2>Postagem mais recente</h2>
                <section>
-                  <h1>Olivia Rodrigo traz a Guts Tour ao Brasil!</h1>
-                  <p>Depois de encantar à todos com seu álbum de estreia, Sour, a ex-princesinha</p> 
+                  <h3>Olivia Rodrigo traz a Guts Tour ao Brasil!</h3>
+                  <p>Depois de encantar a todos com seu álbum de estreia, Sour, a ex-princesinha</p> 
                   <p>do POP, e agora do POP-ROCK, Olivia Isabel Rodrigo...</p>
-                  <button>Continuar lendo..</button>
+                  <a href="#" class="btn">Continuar lendo...</a>
                </section>
             </div>
-            <div class=”profile”>
-               <h1>Sobre mim:</h1>
-            <div class="container">
-                  <img src="danilo.jpg" width="250" />
-              </div>
+
+            <section class="profile-container">
+               <h2>Sobre mim:</h2>
+               <img src="danilo.jpg" width="250" alt="Foto de Danilo">
                <p>Nascido em 03 de Outubro de 2003 e natural de Arapiraca, em Alagoas,</p>
-                <p>autor que vos redige critícas tão influentes quantos estas que</p>
-                <p>vocês estão prestes a ler adora tudo relacionado à cultura POP.</p>
-            </div>  
-         </div>        
+               <p>autor que vos redige críticas tão influentes quanto estas que</p>
+               <p>vocês estão prestes a ler adora tudo relacionado à cultura POP.</p>
+            </section>
+         </div>  
       </main>
+
       <footer>
-         <a href=”twitter.com/olinadclikkie”>Twitter</a>
-         <a href=”instagram.com/082dn._”>Instagram</a>
+         <a href="https://twitter.com/olinadclikkie" target="_blank">Twitter</a>
+         <a href="https://instagram.com/082dn._" target="_blank">Instagram</a>
       </footer>
-    </body>
+   </body>
 </html>
