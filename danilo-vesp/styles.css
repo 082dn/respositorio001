@@ -1,30 +1,101 @@
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: rgb(146, 146, 216);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
 }
 
 header {
-    background-color: rgb(75, 45, 183);
-    text-align: center;
-    padding: 30px;
+    background-color: #333;
+    color: white;
+    text-align: center; /* Centraliza o conteúdo do header */
+    padding: 15px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza os links */
+    gap: 15px; /* Adiciona um espaçamento entre os links */
+    margin-top: 10px;
+}
+
+.menu-link {
+    color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-#meulink1 {
-    color:rgb(182, 159, 142)
+.menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-.container img {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-    object-position: left;
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha tudo à esquerda */
+    padding: 20px;
+}
+
+.post-text-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Move os elementos para a esquerda */
+    text-align: left; /* Alinha o texto para a esquerda */
+    margin-top: 20px;
+    padding-left: 20px; /* Adiciona um pequeno espaçamento da borda esquerda */
+}
+
+.post-text-box h2, 
+.post-text-box h3, 
+.post-text-box p, 
+.post-text-box a {
+    max-width: 600px; /* Mantém um limite para a leitura confortável */
+}
+
+.post-text-box a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post-text-box a:hover {
+    background-color: #555;
+}
+
+.profile-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Move os elementos para a direita */
+    text-align: right; /* Alinha o texto para a direita */
+    padding-right: 20px; /* Espaçamento da borda direita */
+    font-size: 14px; /* Diminui o tamanho do texto */
+    margin-top: 5%;
+}
+
+.profile-container h2 {
+    font-size: 18px; /* Diminui o título "Sobre mim" */
+}
+
+.profile-container img {
+    max-width: 300px; /* Reduz o tamanho da imagem */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
 }
