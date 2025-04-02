@@ -1,0 +1,10 @@
+.hobbies{
+    color: rgb(0, 13, 255);
+list-style-type:disc;
+margin-bottom: 5px;
+}
+
+.metas{
+    color: rgb(139, 0, 83);
+    font-style: italic;
+}

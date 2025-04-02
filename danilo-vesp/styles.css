@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(146, 146, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+header {
+    background-color: rgb(75, 45, 183);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#meulink1 {
+    color:rgb(182, 159, 142)
+}
+
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    object-position: left;
+}

@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    background-color: rgb(37, 108, 171);
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(0, 255, 21);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: brown;
+
+}
